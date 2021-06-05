@@ -1,6 +1,12 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 import premam from "./assets/premam.jpg";
+import godfather from "./assets/godfather.jpg"
+import devasuram from "./assets/devasuram.png"
+import BigB from "./assets/BigB.jpg"
+import twentytwenty from "./assets/twentytwenty.jpg"
+import richie from "./assets/richie.jpg"
+import drona from "./assets/drona.jpg"
 import Cardcomponentinside from "./components/cardcomponentinside";
 
 export default function malyalamMovies(props) {
@@ -13,40 +19,40 @@ export default function malyalamMovies(props) {
     },
     {
       name: "God Father",
-      coverPhoto: "godfather",
+      coverPhoto: godfather,
       desc: "Blockbustar malayalam movie 90",
-      youtubeLink:"https://www.youtube.com/watch?v=hsRMPw5HkWo"
+      youtubeLink:"https://www.youtube.com/watch?v=f331Bnk0f6w"
     },
     {
       name: "Devasuram",
-      coverPhoto: "premam",
+      coverPhoto: devasuram,
       desc: "Blockbustar malayalam movie",
       youtubeLink:"https://www.youtube.com/watch?v=hsRMPw5HkWo"
 
     },
     {
       name: "Big B",
-      coverPhoto: "premam",
+      coverPhoto: BigB,
       desc: "Blockbustar malayalam movie",
-      youtubeLink:""
+      youtubeLink:"https://www.youtube.com/watch?v=LG7W5JFqwmg"
     },
     {
       name: "T20- T20",
-      coverPhoto: "premam",
+      coverPhoto: twentytwenty,
       desc: "Blockbustar malayalam movie",
-      youtubeLink:""
+      youtubeLink:"https://www.youtube.com/watch?v=sb8LrOYXRF8"
     },
     {
-      name: "T20- T20",
-      coverPhoto: "premam",
+      name: "richie",
+      coverPhoto: richie,
       desc: "Blockbustar malayalam movie",
-      youtubeLink:""
+      youtubeLink:"https://www.youtube.com/watch?v=6Vlh25WZD6U"
     },
     {
-      name: "T20- T20",
-      coverPhoto: "premam",
+      name: "dhrona",
+      coverPhoto: drona,
       desc: "Blockbustar malayalam movie",
-      youtubeLink:""
+      youtubeLink:"https://www.youtube.com/watch?v=ySnPJMW1veE"
     },
   ];
   const backToHome = () => {
